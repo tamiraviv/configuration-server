@@ -1,0 +1,4 @@
+etcd:
+  host: http://localhost:2379
+log:
+  level: debug
