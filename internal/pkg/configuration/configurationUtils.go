@@ -7,5 +7,11 @@ import (
 
 type Configuration struct {
 	viper *viper.ViperConf
-	etcd *etcd.Etcd
+	etcd  *etcd.Etcd
+	hooks map[string]func(value string) error
 }
+
+const (
+	configurationServerKey = "configurationServer"
+	etcdKey                = "etcd"
+)

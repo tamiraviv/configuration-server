@@ -1,0 +1,5 @@
+# Folders
+.idea/
+
+# exclude dependencies in the `/vendor` folder
+vendor

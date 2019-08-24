@@ -11,4 +11,3 @@ const (
 	defaultConfName = "config"
 	defaultConfType = "yaml"
 )
-

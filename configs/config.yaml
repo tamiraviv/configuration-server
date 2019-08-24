@@ -1,4 +1,4 @@
+configurationServer: "etcd"
 etcd:
   host: http://localhost:2379
-log:
-  level: debug
+  dir: myDir
