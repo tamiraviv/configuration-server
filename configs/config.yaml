@@ -1,4 +1,6 @@
+configurationServer: "etcd"
 etcd:
   host: http://localhost:2379
+  dir: "intel"
 log:
   level: debug
